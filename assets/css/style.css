@@ -1,0 +1,188 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 6.5rem;
+    margin-bottom: 10px;
+}
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: space-between;
+    padding: 1.3em;
+    border-bottom: 1px solid black;
+    font-size: 0.9rem;
+}
+img{
+    margin-left: 3em;
+}
+
+nav{
+    margin-right: 3.2em;
+}
+
+li:last-child{
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: #191919;
+}
+header, .stayCurios{
+    background-color: #ffc017;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+.stayCurios{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.heading{
+    width: 100%;
+    margin-left: 3em;
+    margin-top: 5em;
+} 
+.heading p{
+    font-size: 1.4rem;
+    margin: 30px 0;
+    color: #191919;
+}
+.m{
+    align-self: flex-end;
+    width: 70%;
+    height: auto;
+}
+
+button{
+    border: 1px solid #191919;
+    border-radius: 20px;
+    color: white;
+    background-color: #191919;
+    font-size: 1.4rem;
+    width: 9em;
+    height: 2em;
+    margin-top: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    color: white;
+}
+
+.trend{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+
+}
+
+.trending{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.trending img{
+    width: 25px;
+}
+.num{
+    color: gray;
+    font-size: 2rem;
+    opacity: 30%;
+    font-weight: bold;
+}
+
+.numAuthor{
+    display: flex;
+    align-items: center;
+}
+
+.article{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.dateTime{
+    color: gray;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.article, .dateTime{
+    margin-left: 3em;
+}
+.box{
+    padding: 1em;
+    width: 30%;
+
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-left: -3em;
+    font-size: 0.8rem;
+}
+.author img{
+    width: 25px;
+    padding: 10px;
+}
+
+.dateTime img{
+    margin-left: -0.1em;
+}
+
+.Articles{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+}
+
+.description{
+    color: gray;
+}
+
+.dateTime2{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 0.8rem;
+    margin-top: 1em;
+}
+
+.image img{
+    width: 200px;
+}
+
+.category{
+    background-color: #F1F3F3;
+    border: 0 solid;
+    border-radius: 20px;
+}
