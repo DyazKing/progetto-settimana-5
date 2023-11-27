@@ -16,6 +16,8 @@ header{
     padding: 1.3em;
     border-bottom: 1px solid black;
     font-size: 0.9rem;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
 }
 img{
     margin-left: 3em;
@@ -25,11 +27,13 @@ nav{
     margin-right: 3.2em;
 }
 
- header li:last-child{
-    border: 1px solid black;
+ #getStarted{
+    border: 0 solid;
     border-radius: 20px;
     color: white;
     background-color: #191919;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
 }
 header, .stayCurios{
     background-color: #ffc017;
@@ -155,13 +159,14 @@ a{
 }
 .box2{
     display: flex;
-    margin-right: 4rem;
+    margin-right: 3rem;
     margin-bottom: 2em;
     margin-left: 2em;
 }
 .articoli{
     display: flex;
     flex-direction: column;
+    
 }
 .colonna{
     display: flex;
@@ -188,7 +193,7 @@ a{
     display: flex;
 }
 .image img{
-    width: 300px;
+    width: 200px;
 }
 
 .category{
@@ -208,7 +213,6 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
 }
 .arguments{
     display: flex;
@@ -230,7 +234,7 @@ a{
     color: gray;
 }
 
-.footer{
+.footer ul{
     display: flex;
     flex-wrap: wrap;
 }
@@ -238,3 +242,14 @@ a{
 .footer li{
    font-size: 1rem;
 }
+.randoM {
+    animation: fadeIn 1s ease-in infinite alternate;;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
