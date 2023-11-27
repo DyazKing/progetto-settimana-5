@@ -25,7 +25,7 @@ nav{
     margin-right: 3.2em;
 }
 
-li:last-child{
+ header li:last-child{
     border: 1px solid black;
     border-radius: 20px;
     color: white;
@@ -151,13 +151,21 @@ a{
 
 .Articles{
     display: flex;
-    padding: 1em;
-    flex-wrap: wrap;
+    margin-top: 3em;
 }
 .box2{
     display: flex;
+    margin-right: 4rem;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+.articoli{
+    display: flex;
     flex-direction: column;
-    
+}
+.colonna{
+    display: flex;
+    flex-direction: column;
 }
 .title{
     font-weight: bold;
@@ -176,13 +184,57 @@ a{
     font-size: 0.8rem;
     margin-top: 1em;
 }
-
+.image{
+    display: flex;
+}
 .image img{
-    width: 200px;
+    width: 300px;
 }
 
 .category{
     background-color: #F1F3F3;
     border: 0 solid;
     border-radius: 20px;
+    padding: 8px;
+}
+
+.discover h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.arguments{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+.arguments p{
+    padding: 10px;
+    margin: 5px;
+}
+.border{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.arguments, .footer a{
+    color: gray;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li{
+   font-size: 1rem;
 }
