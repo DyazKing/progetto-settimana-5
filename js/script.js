@@ -3,7 +3,7 @@ window.addEventListener("scroll", () =>{
     let header = document.querySelector("header")
     let btn = document.querySelector("#getStarted")
 
-    if(verticalScroll > 380){
+    if(verticalScroll > 350){
         header.style.backgroundColor = "white"
         btn.style.backgroundColor = "green"
     } else{
